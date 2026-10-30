@@ -1,0 +1,10 @@
+{
+  "name": "genpark-growth-data-analyst",
+  "version": "1.0.0",
+  "description": "GenPark Growth Data Analyst - Cohort retention triangle heatmap generator, feature adoption Granger causality F-test, and Kaplan-Meier churn hazard rate estimator with zero dependencies.",
+  "tools": [
+    "build_cohort_retention_triangle",
+    "test_feature_adoption_granger_causality",
+    "estimate_churn_hazard_rate_cox"
+  ]
+}
