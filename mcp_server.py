@@ -48,9 +48,7 @@ def estimate_churn_hazard_rate_cox(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing Growth Data Analyst:")
-    c = [{"cohort": "2026-01", "cohort_size": 100, "active_users": [100, 45, 35]}]
-    print(build_cohort_retention_triangle(json.dumps(c)))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
